@@ -335,3 +335,27 @@ span {
 		font-size: 5rem;
 	}
 }
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .container {
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    header {
+      font-size: 18px;
+    }
+
+    nav a {
+      padding: 8px 10px;
+    }
+
+    .container {
+      padding: 0 5px;
+    }
+  }
